@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Card() {
+export const Projects = () => {
     return (
         <div>
             
         </div>
     )
 }
-
-export default Card
