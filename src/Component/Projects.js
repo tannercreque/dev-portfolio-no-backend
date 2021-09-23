@@ -6,12 +6,6 @@ state = {
     description = {}
 }
 
-componentDidMount() {
-    fetch('http://localhost:3000/projects')
-        .then(response => response.json())
-        .then(data => this.setState({ project: data.total }))   
-}
-
 export const Projects = () => {
     return (
         <div>
