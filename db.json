@@ -1,9 +1,9 @@
 {
-    "projects":[
+"projects":[
         {
             "id": 1,
             "link": "placeholder.com",
             "description": "This is a placeholder description entailing what the project does and how it does it with what languages etc."
         }
-    ]
+]
 }
