@@ -1,23 +1,13 @@
-import React from 'react';
+import { Component } from 'react'
 
-state = {
-    project = {},
-    image = {},
-    description = {}
+class Project extends Component {
+    render(){
+        return(
+            <div className="Project">
+
+            </div>
+        )
+    }
 }
 
-componentDidMount(); {
-    fetch('http://localhost:3000/projects')
-        .then(response => response.json())
-        .then(response => console.log(response.json))
-        //.then(data => this.setState({ project: data.total }))   
-  }
-
-  
-export const Projects = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+export default Project;
