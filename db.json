@@ -3,7 +3,7 @@
         {
             "id": 1,
             "link": "placeholder.com",
-            "description": "This is a placeholder description entailing what the project does and how it does it with what languages etc."
+            "description": "This application is built in React.JS + Ruby on Rails (RoR), and has JWT Authentication, as well as OAuth and plaid implementation."
         }
 ]
 }
