@@ -1,13 +1,14 @@
 import './App.css';
-import Project from './Component/Projects'
+import { Component } from 'react';
 
-
-function App() {
-  return (
+class App extends Component {
+  render(){
+    return (
     <div className="App">
-      <Project />
     </div>
   );
-}
+}  
+  }
+
 
 export default App;
