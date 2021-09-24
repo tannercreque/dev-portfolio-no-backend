@@ -1,5 +1,5 @@
 import { Component } from 'react'
-
+import ProjectsContainer from '../Container/ProjectsContainer'
 const apiUrl = 'http://localhost:3000/projects';
 
 class Project extends Component {
@@ -9,16 +9,18 @@ class Project extends Component {
     image: [],
     description: []
     }
+
     componentDidMount= () => {
     fetch(apiUrl)
     .then(response => response.json())
-    .then(data => this.setState({ projects: data.results }))
+    .then(projects => this.setState({ projects }))
+    .then(console.log(this.state.projects))
     }
 
     render(){
         return(
             <div className="Project">
-                
+                <ProjectsContainer projects={this.state.projects} />
             </div>
         )
     }

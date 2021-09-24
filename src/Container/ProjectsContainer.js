@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Component } from 'react'
   
-export const ProjectsContainer = () => {
-    return (
-        <div>
+function ProjectsContainer (props) {
+    const renderProjects = () => {
+        return props.projects.map (project => {
+            return <Project 
+            key={project.id}
+            project={project}
             
-        </div>
-    )
+            />
+        })
+    }
 }
+export default ProjectsContainer;
