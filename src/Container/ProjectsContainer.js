@@ -1,15 +1,18 @@
-import React, { Component } from 'react'
-import { Component } from 'react'
+import Projects from '../Component/Projects'
   
 function ProjectsContainer (props) {
+
     const renderProjects = () => {
         return props.projects.map (project => {
-            return <Project 
-            key={project.id}
+            return <Projects 
             project={project}
-            
             />
         })
     }
+    return(
+        <div>
+            {renderProjects} Render
+        </div>
+    )
 }
 export default ProjectsContainer;

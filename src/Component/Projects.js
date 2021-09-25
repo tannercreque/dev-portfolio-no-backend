@@ -5,9 +5,7 @@ const apiUrl = 'http://localhost:3000/projects';
 class Project extends Component {
 
     state = {
-    projects: {},
-    image: [],
-    description: []
+    projects: {}
     }
 
     componentDidMount= () => {
