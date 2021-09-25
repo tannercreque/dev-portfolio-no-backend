@@ -11,7 +11,7 @@ function ProjectsContainer (props) {
     }
     return(
         <div>
-            {renderProjects} Render
+            {renderProjects} My name is Tanner Creque and I am a Full-Stack Software Engineer
         </div>
     )
 }
