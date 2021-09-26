@@ -2,8 +2,9 @@
 "projects":[
         {
             "id": 1,
-            "link": "placeholder.com",
-            "description": "This application is built in React.JS + Ruby on Rails (RoR), and has JWT Authentication, as well as OAuth and plaid implementation."
+            "link": "https://github.com/tannercreque/Rails-With-JWT",
+            "description": "This application is a backend that is completely customizable, with a user config, that uses JWT authentication. It is built out in Rails, while utilizing the JWT Gem."
+            
         }
 ]
 }
